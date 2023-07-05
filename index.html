@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musix-X</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="images/fd.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <img src="gallery/music.jpeg" alt="logo">
+            </div>
+           
+            
+        
+            
+            
+        </div>
+
+        <div id='player' class="player">
+            <div class="audio-container" id="audio-container">
+                <div class="audio-info">
+                    <h4 id="title">Melody</h4>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+                <audio src="music/[iSongs.info] 03 - Waiting For You.mp3" id="audio"></audio>
+                <div class="img-container">
+                    <img src="" alt="" id="cover">
+                </div>
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+        
+                </div>
+        
+        
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="content">
+            
+            <div class="recently">
+
+                <h1>Favourites</h1><br><br>
+                <div class="recently cont">
+          
+                    <a onclick="playthis(0);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/cheliya.jpeg">
+                    </a>
+                    <a onclick="playthis(1);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/entha-chithram-ante-sundaraniki_1440-x-1440_1652162314.jpeg">
+                    </a>
+                    <a onclick="playthis(2);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/images.jpeg">
+                    </a>
+                    <a onclick="playthis(3);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/ok.jpeg">
+                    </a>
+                    
+                    <a onclick="playthis(4);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/oridevuda.jpeg">
+                    </a>
+                    <a onclick="playthis(5);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/oy].jpeg">
+                    </a><br><br>
+
+                   
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="recently">
+
+                <h1>New Releases</h1><br><br>
+                <div class="recently cont">
+          
+                    <a onclick="playthis(6);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/kushi.jpeg">
+                    </a>
+                    <a onclick="playthis(7);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/spy.jpeg">
+                    </a>
+                    <a onclick="playthis(8);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/adipurush.jpeg">
+                    </a>
+                    <a onclick="playthis(9);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/virupaksha.jpeg">
+                    </a>
+                    
+                    <a onclick="playthis(10);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/mem famous.jpeg">
+                    </a>
+                    
+                    <a onclick="playthis(11);" ondblclick="pauseSong()" class="song" >
+                        <img src="gallery/samajavaragamana.jpeg">
+                    </a><br><br>
+
+                   
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
